@@ -7,18 +7,18 @@ body {
 }
 
 :root {
-    --primary-color:#CACFD6;
-    --secondary-color: #D6E5E3;
-    --accent1-color: #9FD8CB;
-    --accent2-color: #517664;
+    --primary-color:#0b67e7;
+    --secondary-color: #2af0d5;
+    --accent1-color: #418676;
+    --accent2-color: #55df9c;
 
     --heading-font: '______', Playfair;
     --paragraph-font: '_____', Playfair;
 
-    --nav-background-color: #769FB6;
+    --nav-background-color: #309edf;
     --nav-link-color: #188FA7;
-    --nav-hover-link-color: #9DBBAE;
-    --nav-hover-background-color: #E2DBBE;
+    --nav-hover-link-color: #37cf8d;
+    --nav-hover-background-color: #e9c63d;
 }
 
 body {
