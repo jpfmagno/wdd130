@@ -1,0 +1,61 @@
+@import url('https://fonts.google.com/specimen/Playfair+Display=swap');
+
+body {
+    font-family: var(--paragraph-font-);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color:#CACFD6;
+    --secondary-color: #D6E5E3;
+    --accent1-color: #9FD8CB;
+    --accent2-color: #517664;
+
+    --heading-font: '______', Playfair;
+    --paragraph-font: '_____', Playfair;
+
+    --nav-background-color: #769FB6;
+    --nav-link-color: #188FA7;
+    --nav-hover-link-color: #9DBBAE;
+    --nav-hover-background-color: #E2DBBE;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 750px;
+    padding: 14px;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--paragraph-font-);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+color: var(--nav-link-color);
+background-color: var(--nav-hover-background-color);
+}
