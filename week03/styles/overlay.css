@@ -15,9 +15,9 @@ h2 {
 	text-shadow: 3px 3px 5px #777;
 }
 
-.herodiv {
+.he  rodiv {
 	margin: 10px auto;
-	position: ; /* If removed, what happens? */
+	position: 0; /* If removed, what happens? */
 }
 
 .herodiv img {
@@ -27,7 +27,7 @@ h2 {
 }
 
 .stats {
-	position: absolute;
+	position: 0;
 	bottom: 25px;
 	left: 15px;
 	background: radial-gradient(#eee, #4567aa);
